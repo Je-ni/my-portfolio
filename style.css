@@ -1,0 +1,187 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+@font-face{
+    font-family: poppins;
+    src: url('./assets/poppins.woff2');
+}
+.nav{
+    grid-column: 3
+}
+.nav ul li {
+    display: inline;
+    margin: 10px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #4F4F4F;
+    font-family: poppins;
+    font-size: 16px;
+}
+.nav ul li a.active{
+    border-bottom: 2px solid #FF5252;
+}
+#index-main{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    height: 400px;
+    align-content: space-around
+}
+.intro{
+    grid-column: 1;
+}
+#intro-title{
+    font-family: poppins;
+    font-weight: bolder;
+    font-size: 43px;
+    color: #4F4F4F;
+}
+#intro-name{
+    color: #FF5252;
+}
+#intro-p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: poppins;
+    color: #4F4F4F;
+    margin-top: -45px;
+    letter-spacing: 0.29em;
+}
+#social{
+    margin-top: 15px;
+}
+#social-text{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: poppins;
+    color: #4F4F4F;
+    width: 100px;
+    padding-top: 10px;
+    border-top: 3px solid #4F4F4F; 
+}
+#social-media{
+    margin-top: 10px;
+    width: 339px;
+}
+.dp{
+    grid-column: 2;
+}
+#picture{
+    width: 300px;
+    height: 300px;
+    background: #4F4F4F;
+    border-image: url('./assets/Subtract.svg') 50 round;
+    border-radius: 50%;
+}
+
+/*---------------------------- About Page Styles ------------------------------ */
+.about-main{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+}
+#about-title{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: #4F4F4F;
+}
+#about-span{
+    color: #FF5252;
+}
+#about-p{
+    grid-row: 2;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 20px;
+    letter-spacing: 0.07em;
+    color: #4F4F4F;
+}
+
+#skills{
+    margin-top: 20px;
+}
+#skill-p{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.07em;
+    color: #4F4F4F;
+}
+#skill-span{
+    border-right: 2px solid #4F4F4F;
+    padding-right: 10px
+}
+#cv-download{
+    grid-row: 3;
+    font-family: poppins;
+    font-size: 20px;
+    font-style: normal;
+    color: #FF5252;
+}
+
+/* --------------------Contact Page Styles------------------------ */
+.contact-main{
+    display: grid;
+    grid-template-columns:auto;
+    justify-content: space-around;
+}
+#contact-title{
+    color: #4F4F4F;
+    font-family: poppins;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: bolder;
+}
+.contact-input{
+    width: 400px;
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 1px solid #FF5252;
+    padding: 15px;
+    color: #4F4F4F;
+    font-family: poppins;
+    outline: 0;
+}
+#fullname{
+    background: url('./assets/man-user.svg') no-repeat scroll 7px 7px;
+    padding-left:50px; 
+}
+#email{
+    background: url('./assets/contact.svg') no-repeat 7px 7px;
+    padding-left: 50px;
+}
+#message{
+    background: url('./assets/pen.svg') no-repeat 7px 7px;
+    padding-left: 50px;
+}
+#send{
+    margin-top: 5%;
+    /* padding: 5px; */
+    color: #4F4F4F;
+    font-family: poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bolder;
+    letter-spacing: 0.07em;
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 4px solid #FF5252;
+    background: transparent;
+    outline: 0;
+    text-align: right;
+}
