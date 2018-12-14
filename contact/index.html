@@ -24,9 +24,9 @@
             <h1 id="contact-title">Got something for me</h1>
 
             <form>
-                <input class="contact-input" type="text" name="" id="fullname" placeholder="Full Name"><br><br><br>
-                <input class="contact-input" type="text" name="" id="email" placeholder="Email"><br><br><br>
-                <input class="contact-input" type="text" name="" id="message" placeholder="Message"><br><br><br>
+                <input class="contact-input" type="text" name="" id="fullname" placeholder="Full Name" required><br><br><br>
+                <input class="contact-input" type="text" name="" id="email" placeholder="Email" required><br><br><br>
+                <input class="contact-input" type="text" name="" id="message" placeholder="Message" required><br><br><br>
 
                 <input id="send" type="submit" value="Send">
             </form>
@@ -45,7 +45,13 @@
             let senderName = document.querySelector('#fullname').value;
             let body = document.querySelector('#message').value;
 
-            console.log(email, senderName, body);
+            // console.log(email, senderName, body);
+
+            if(!email || !senderName || !body){
+                alert('Please Fill Out all fields properly');
+                return;
+            }
+            sendMail(email, senderName, body);
         });
         
     </script>

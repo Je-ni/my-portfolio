@@ -184,4 +184,5 @@ header{
     background: transparent;
     outline: 0;
     text-align: right;
+    cursor: pointer;
 }
