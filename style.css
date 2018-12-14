@@ -80,6 +80,9 @@ header{
     border-image: url('./assets/Subtract.svg') 50 round;
     border-radius: 50%;
 }
+@media only screen and (max-width: 500px) {
+    
+}
 
 /*---------------------------- About Page Styles ------------------------------ */
 .about-main{
