@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Enjoy Your Stay</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
 </head>
 <body>
     <header>
@@ -41,5 +41,15 @@
             </div>
         </section>
     </main>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register("sw.js")
+                .then(function () { console.log("Service Worker Registered"); });
+        } else {
+            console.log("bad");
+        }
+    </script>
 </body>
 </html>
