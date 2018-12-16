@@ -225,8 +225,9 @@ header{
     #skill-p{
         font-size: 10px;
         padding: 30px;
-        margin: 20px;
+        /* margin: 20px; */
         text-align: center;
+        letter-spacing: 0.3em;
     }
     #skill-span{
         border-right: 0px solid transparent;
@@ -235,7 +236,7 @@ header{
         letter-spacing: 0.1em;
         position: relative;
         top: -25px;
-        left: 80px;
+        left: 120px;
     }
     .dot{
         display: none;
