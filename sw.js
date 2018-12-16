@@ -20,7 +20,10 @@ let filesToCache = [
     './assets/poppins.woff2',
     './assets/stackoverflow.svg',
     './assets/Subtract.svg',
-    './assets/twitter.svg'
+    './assets/twitter.svg',
+    './assets/home.svg',
+    './assets/about.svg',
+    './assets/mycontact.svg'
 ];
 
 // install event that installs all the files needed by the app shell
