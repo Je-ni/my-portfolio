@@ -184,7 +184,8 @@ header{
 }
 
 #skills{
-    margin-top: 20px;
+    position: relative;
+    top: 20px;
 }
 #skill-p{
     font-family: poppins;
@@ -208,10 +209,10 @@ header{
 @media only screen and (max-width: 500px){
     #about-title{
         font-size: 20px;
-        margin-top: 40%;
+        margin-top: 20%;
     }
     #about-p{
-        font-size: 10px;
+        font-size: 12px;
         text-align: center;
         letter-spacing: 0.01em;
     }
@@ -222,12 +223,14 @@ header{
         width: 30px;
         height: 30px;
     }
+    #skills{
+        margin-top: 45px;
+    }
     #skill-p{
-        font-size: 10px;
-        padding: 30px;
-        /* margin: 20px; */
-        text-align: center;
-        letter-spacing: 0.3em;
+        font-size: 12px;
+        /* padding: 30px; */
+        margin: 20px;
+        text-align: justify;
     }
     #skill-span{
         border-right: 0px solid transparent;
@@ -236,7 +239,7 @@ header{
         letter-spacing: 0.1em;
         position: relative;
         top: -25px;
-        left: 120px;
+        left: 150px;
     }
     .dot{
         display: none;
